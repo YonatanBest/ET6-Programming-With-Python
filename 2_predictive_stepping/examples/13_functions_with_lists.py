@@ -23,7 +23,7 @@ def append__side_effect(items: list, new_value: str) -> list:
 
 
 _1_list_before = ["a", "b"]
-_1_list_after = append__side_effect(_1_list_before, "c")
+_1_list_after = append__side_effect(_1_list_before, "c") # 
 
 
 # this function modifies a copy of the argument list - no side-effects!
